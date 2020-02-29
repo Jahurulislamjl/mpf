@@ -1,0 +1,92 @@
+
+@import "variable";
+
+//=======Navbar Section========
+
+.header{
+
+  .navbar{
+    display: flex;
+
+    .navbar-brand{
+      flex: 1;
+    }
+
+    .navbar-link-item{
+      flex: 4;
+
+      .navbar-nav{
+        display: flex;
+
+        .nav-item{
+          border: none;
+          margin-left: 20px ;
+
+          .nav-link{
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+//======About Section==========
+
+.home-inner{
+  position: relative;
+  height: 500px;
+  background: url("../images/popcorn.jpg") no-repeat center;
+  background-size: cover;
+
+  .dark-overlay{
+    position: relative;
+    background: $black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+//==========about==========
+
+.about{
+  .about-me{
+    width: 100%;
+    background: $white;
+    margin-top: -350px;
+    z-index: 1;
+    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+
+    .biodata{
+
+      .bio-details{
+        .bio-label{
+          display: flex;
+
+          .bio-title{
+            flex: 1;
+          }
+
+          .bio-description{
+            flex: 3;
+          }
+        }
+      }
+    }
+
+    .social-media{
+      background: $primary;
+    }
+  }
+}
+
+
+//=======Skills==============
+
+.skills{
+
+  height: 200px;
+
+}
