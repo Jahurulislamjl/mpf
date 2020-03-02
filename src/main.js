@@ -4,6 +4,7 @@ import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/sass/portfolio.scss'
+import '@mdi/font/scss/materialdesignicons.scss'
 
 Vue.config.productionTip = false
 
