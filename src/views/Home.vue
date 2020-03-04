@@ -233,6 +233,323 @@
                 </div>
             </div>
         </section>
+
+
+        <!--=======portfolio section========-->
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <p class="title">
+                            Portfolio
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate? Commodi est illum ipsam quis soluta. Voluptatibus?
+                        </p>
+                    </div>
+
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Photography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">UX design</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--==============Service Section===========-->
+
+        <section id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <p class="title">
+                            My Services
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate? Commod
+                        </p>
+                    </div>
+
+                    <div class="service-items p-5 my-5">
+                        <div class="row">
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-brush"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-monitor"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-heart"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-brush"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-monitor"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-category">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="service-icon">
+                                            <i class="mdi mdi-heart"></i>
+                                        </div>
+                                        <div class="card-title">
+                                            <p class="title">Design</p>
+                                            <p class="sub-title">UI/UX Design</p>
+                                        </div>
+                                        <hr>
+                                        <div class="service-description">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--=============Work Experience==================-->
+
+
+        <section id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <p class="title">
+                            Work Experience
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate? Commod
+                        </p>
+                    </div>
+
+                    <div class="experience-items py-5">
+                        <div class="row">
+
+                            <div class="col-md-6 experience-left">
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-6 experience-right">
+                                <div class="card right-card">
+                                    <div class="card-body ">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card right-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card right-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </div>
 </template>
 

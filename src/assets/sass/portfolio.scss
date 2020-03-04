@@ -1,6 +1,11 @@
 
 @import "variable";
 
+body{
+  background: lighten($black, 94%);
+  padding-bottom: 50px;
+}
+
 
 .progress-bar{
  width:auto!important;
@@ -11,7 +16,6 @@
 .section-title{
   padding: 25px;
   text-align: center;
-  //font-family: sans-serif;
 
   .title{
     font-size: 36px;
@@ -240,4 +244,188 @@
     }
   }
 
+}
+
+
+//============portfolio section=================
+
+.service-items{
+
+  background: $white;
+  box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+
+  .service-category{
+    .card{
+      border: none;
+      justify-content: left !important;
+
+      .card-body{
+        padding-top: 0;
+        padding-bottom: 0;
+        .service-icon{
+          font-size: 52px;
+          color: $primary;
+        }
+
+        .card-title{
+          .title{
+            font-size:24px ;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+          }
+          .sub-title{
+            font-size: 20px;
+            color: $primary;
+          }
+        }
+
+        hr{
+          border: 2px solid lighten($black, 85%);
+          justify-content: left !important;
+        }
+
+        .service-description{
+          .text{
+            font-size: 20px;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+
+//==============Experience Section=================
+
+
+.experience-items{
+
+  .card{
+    border: none;
+    border-radius: 0;
+    border-right: 5px solid $primary;
+    border-left: 5px solid $primary;
+    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+    position: relative;
+    margin-bottom: 30px;
+
+    @media (max-width: 425px){
+      border-right: none;
+      border-left: none;
+      border-top: 5px solid $primary;
+    }
+
+    .year{
+      text-align: center;
+      font-weight: bold;
+      color: $primary;
+      font-size: 20px;
+      P{
+        margin-bottom: 0;
+      }
+    }
+
+    .company-title{
+      text-align: center;
+      .logo{
+        height: 70px;
+        width: 120px;
+      }
+
+      .position{
+        font-size: 16px;
+        text-transform: uppercase;
+        color: lighten($black, 50%);
+      }
+    }
+
+    .work-description{
+      font-size: 20px;
+      color: lighten($black, 40%);
+      margin-bottom: 10px;
+    }
+
+    .arrow-box {
+      height: 30px;
+      width: 30px;
+      background: darken($primary, 5%);
+      transform: rotate(45deg);
+      position: absolute;
+      display: block;
+      box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+      border: none;
+      z-index: 1;
+    }
+
+  }
+
+
+  .experience-left{
+    padding-right: 50px;
+
+    @media (max-width: 425px){
+      padding-right: 0!important;
+    }
+
+    .left-card{
+      border-left: none;
+
+      .arrow-box{
+        margin-left: 482px;
+        margin-top: -220px;
+
+        @media (max-width: 1024px){
+          margin-left: 392px;
+          margin-top: -240px;
+        }
+
+        @media (max-width: 768px){
+          margin-left: 272px;
+          margin-top: -260px;
+        }
+
+        @media (max-width: 425px){
+          display: none;
+        }
+
+      }
+    }
+
+  }
+
+  .experience-right{
+
+    padding-left: 50px;
+
+    @media (max-width: 425px){
+      padding-left: 0!important;
+    }
+
+    .right-card{
+      border-right: none;
+
+      .arrow-box{
+        margin-left: -35px;
+        margin-top: -220px;
+
+        @media (max-width: 1024px){
+          margin-left: 412px;
+          margin-top: -240px;
+        }
+
+        @media (max-width: 768px){
+          margin-left: 292px;
+          margin-top: -260px;
+        }
+
+        @media (max-width: 425px){
+          display: none;
+        }
+
+      }
+    }
+
+  }
 }
