@@ -6,6 +6,7 @@
             </div>
         </div>
 
+
         <section class="about">
             <div class="container">
                 <div class="row">
@@ -19,6 +20,8 @@
                                 </div>
 
                                 <div class="col-md-7 biodata p-5">
+
+
                                     <div class="intro">
                                         <span class="hello py-1 px-3">HELLO</span>
                                     </div>
@@ -109,23 +112,88 @@
                         <div class="card">
                             <div class="card-items">
                                 <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-                                    accordion 1
+                                    Back-End Web Development
                                 </div>
-                                <div class="card-body collapse" id="collapse1">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio earum
-                                    error harum illo illum incidunt iste necessitatibus sequi vel.
+                                <div class="collapse" id="collapse1">
+                                    <div class="card-body">
+                                        <progress-bar
+                                                :options="options"
+                                                :value="20"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div class="card front-end">
                             <div class="card-items">
                                 <div class="card-header" data-toggle="collapse" data-target="#collapse2">
-                                    accordion 2
+                                    Front-End Web Development
                                 </div>
-                                <div class="card-body collapse" id="collapse2">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto assumenda
-                                    dolorum facilis fugit ipsum praesentium provident recusandae reiciendis temporibus?
+
+                                <div class="collapse " id="collapse2">
+                                    <div class="card-body front-end-body">
+                                        <div class="markup-lang px-4">
+                                            <p>Markup Language</p>
+
+                                            <div class="progress-item">
+                                                <p>Bootstrap 4</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="progress-item">
+                                                <p>CSS 3</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="progress-item">
+                                                <p>HTML 5</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="script-lang px-4">
+                                            <p>Scripting Language</p>
+
+                                            <div class="progress-item">
+                                                <p>Vue.js</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="progress-item">
+                                                <p>JQuery</p>
+                                                <div class="progress">
+
+                                                </div>
+                                            </div>
+
+                                            <div class="progress-item">
+                                                <p>JavaScript</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -133,11 +201,14 @@
                         <div class="card">
                             <div class="card-items">
                                 <div class="card-header" data-toggle="collapse" data-target="#collapse3">
-                                    accordion 3
+                                    Database Management Language
                                 </div>
-                                <div class="card-body collapse" id="collapse3">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus deleniti
-                                    deserunt, ducimus iure nemo non possimus quidem totam voluptas!
+                                <div class="collapse" id="collapse3">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio
+                                        earum
+                                        error harum illo illum incidunt iste necessitatibus sequi vel.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -145,11 +216,14 @@
                         <div class="card">
                             <div class="card-items">
                                 <div class="card-header" data-toggle="collapse" data-target="#collapse4">
-                                    accordion 4
+                                    Others
                                 </div>
-                                <div class="card-body collapse" id="collapse4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequuntur dolores
-                                    ea eum molestiae nihil porro quas quo reiciendis totam.
+                                <div class="collapse" id="collapse4">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio
+                                        earum
+                                        error harum illo illum incidunt iste necessitatibus sequi vel.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -163,5 +237,53 @@
 </template>
 
 <script>
+
+    import ProgressBar from '../../node_modules/vuejs-progress-bar'
+
+    export default {
+
+        components: {
+            ProgressBar
+        },
+
+
+        data() {
+
+            return {
+
+
+                options: {
+                    text: {
+                        color: '#FFFFFF',
+                        shadowEnable: true,
+                        shadowColor: '#000000',
+                        fontSize: 14,
+                        fontFamily: 'Helvetica',
+                        dynamicPosition: false,
+                        hideText: false
+                    },
+                    progress: {
+                        color: '#2dbd2d',
+                        backgroundColor: '#d3d3d3'
+                    },
+                    layout: {
+                        height: 50,
+                        width: 100,
+                        verticalTextAlign: 63,
+                        horizontalTextAlign: 43,
+                        zeroOffset: 0,
+                        strokeWidth: 15,
+                        progressPadding: 0,
+                        type: 'circle'
+                    }
+                }
+            }
+
+
+        }
+
+
+    }
+
 
 </script>
