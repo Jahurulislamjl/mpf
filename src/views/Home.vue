@@ -440,23 +440,7 @@
                                         <div class="arrow-box">
 
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class="card left-card">
-                                    <div class="card-body">
-                                        <div class="year">
-                                            <p>2019-2020</p>
-                                        </div>
-                                        <div class="company-title">
-                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
-                                            <p class="position">Web Developer</p>
-                                        </div>
-                                        <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
-                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
-                                        </div>
-                                        <div class="arrow-box">
+                                        <div class="line-dot">
 
                                         </div>
                                     </div>
@@ -476,6 +460,31 @@
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
 
                                         </div>
                                     </div>
@@ -501,23 +510,7 @@
                                         <div class="arrow-box">
 
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class="card right-card">
-                                    <div class="card-body">
-                                        <div class="year">
-                                            <p>2019-2020</p>
-                                        </div>
-                                        <div class="company-title">
-                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
-                                            <p class="position">Web Developer</p>
-                                        </div>
-                                        <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
-                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
-                                        </div>
-                                        <div class="arrow-box">
+                                        <div class="line-dot">
 
                                         </div>
                                     </div>
@@ -537,6 +530,31 @@
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card right-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="company-title">
+                                            <img src="../assets/images/companylogo/mdit.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="work-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
 
                                         </div>
                                     </div>
@@ -547,7 +565,199 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+
+        <!--================= Training Summary==============-->
+
+        <section id="training">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <p class="title">
+                            Training Summary
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate? Commod
+                        </p>
+                    </div>
+
+                    <div class="training-items py-5">
+                        <div class="row">
+
+                            <div class="col-md-6 training-left">
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="organization-title">
+                                            <img src="../assets/images/companylogo/bitm.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="training-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card left-card">
+                                    <div class="card-body">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="organization-title">
+                                            <img src="../assets/images/companylogo/bitm.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="training-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-6 training-right">
+                                <div class="card right-card">
+                                    <div class="card-body ">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="organization-title">
+                                            <img src="../assets/images/companylogo/bitm.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="training-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card right-card">
+                                    <div class="card-body ">
+                                        <div class="year">
+                                            <p>2019-2020</p>
+                                        </div>
+                                        <div class="organization-title">
+                                            <img src="../assets/images/companylogo/bitm.png" alt="" class="logo">
+                                            <p class="position">Web Developer</p>
+                                        </div>
+                                        <div class="training-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            illum ipsa laborum quam quas saepe sequi ut! Tempore!
+                                        </div>
+                                        <div class="arrow-box">
+
+                                        </div>
+                                        <div class="line-dot">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===========Education Section============-->
+
+        <section id="education" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <p class="title">
+                            Education
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate?
+                        </p>
+                    </div>
+
+                    <div class="col-12 university-section pt-3">
+                        <div class="university">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="year">
+                                        <p>2015-2019</p>
+                                    </div>
+                                    <div class="course">
+                                        <p>B.Sc in Software Engineering</p>
+                                    </div>
+                                    <div class="institution">
+                                        Daffodil International University
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 college-section">
+                        <div class="college">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="year">
+                                        <p>2015-2019</p>
+                                    </div>
+                                    <div class="course">
+                                        <p>B.Sc in Software Engineering</p>
+                                    </div>
+                                    <div class="institution">
+                                        Daffodil International University
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 school-section">
+                        <div class="school">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="year">
+                                        <p>2015-2019</p>
+                                    </div>
+                                    <div class="course">
+                                        <p>B.Sc in Software Engineering</p>
+                                    </div>
+                                    <div class="institution">
+                                        Daffodil International University
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
     </div>
