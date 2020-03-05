@@ -760,6 +760,78 @@
             </div>
         </section>
 
+        <!--============= Pricing Section==============-->
+
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-title">
+                        <p class="title">
+                            Pricing
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate?
+                        </p>
+                    </div>
+                    <div class="price-items col-12">
+                        <div class="row">
+                            <div class="col-md-4 price-item">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>$50 <small>/mon</small></p>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-title">basic</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+
+                                        <button class="btn"> BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 price-item price-item-mid">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>$50 <small>/mon</small></p>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-title">basic</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+
+                                        <button class="btn"> BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 price-item">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <p>$50 <small>/mon</small></p>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-title">basic</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+                                        <p>Lorem ipsum dolor sit</p>
+
+                                        <button class="btn"> BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
