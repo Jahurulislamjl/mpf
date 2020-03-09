@@ -93,6 +93,33 @@
         </section>
 
 
+        <section >
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+
         <!--=========Skill Section==========-->
 
         <section class="skills py-5">
@@ -762,7 +789,7 @@
 
         <!--============= Pricing Section==============-->
 
-        <section id="pricing">
+        <section id="pricing" class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 section-title">
@@ -837,6 +864,7 @@
 
 <script>
 
+
     import ProgressBar from '../../node_modules/vuejs-progress-bar'
 
     export default {
@@ -875,14 +903,48 @@
                         progressPadding: 0,
                         type: 'circle'
                     }
-                }
+                },
+
             }
 
 
+        },
+
+        created(){
+
+            let swiper = new Swiper('.swiper-container', {
+                slidesPerView: 4,
+                loopedSlides: 4,
+                centeredSlides: false,
+                spaceBetween: 10,
+                grabCursor: true,
+                loop: true,
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                breakpoints: {
+                    1200: {
+                        slidesPerView: 4,
+                        loopedSlides: 4,
+                        spaceBetween: 10 },
+
+                    1024: {
+                        slidesPerView: 3,
+                        loopedSlides: 3,
+                        spaceBetween: 10 },
+
+                    768: {
+                        slidesPerView: 2,
+                        loopedSlides: 2,
+                        spaceBetween: 10 },
+
+                    675: {
+                        slidesPerView: 1,
+                        loopedSlides: 1,
+                        spaceBetween: 20 } } });
         }
 
-
     }
+
 
 
 </script>

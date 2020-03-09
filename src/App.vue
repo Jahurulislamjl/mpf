@@ -7,11 +7,12 @@
 </template>
 
 <script>
-import myHeader from "./components/partial/myHeader"
+import myHeader from "./components/partial/myHeader";
 
   export default {
       components:{
         myHeader
     }
   }
+
 </script>
