@@ -997,6 +997,95 @@
         </section>
 
 
+        <!--===============Statistics Section===========-->
+
+        <div id="statistic">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col section-title">
+                        <p class="title">
+                            Statistics
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="counter">
+                                    <p>500</p>
+                                </div>
+                                <div class="category">
+                                    <i class="mdi mdi-folder-multiple"></i>
+                                    <p>Projects</p>
+                                </div>
+                                <p class="duration">for 4 years</p>
+
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="counter">
+                                    <p>500</p>
+                                </div>
+                                <div class="category">
+                                    <i class="mdi mdi-folder-multiple"></i>
+                                    <p>Projects</p>
+                                </div>
+                                <p class="duration">for 4 years</p>
+
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="counter">
+                                    <p>500</p>
+                                </div>
+                                <div class="category">
+                                    <i class="mdi mdi-folder-multiple"></i>
+                                    <p>Projects</p>
+                                </div>
+                                <p class="duration">for 4 years</p>
+
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="counter">
+                                    <p>500</p>
+                                </div>
+                                <div class="category">
+                                    <i class="mdi mdi-folder-multiple"></i>
+                                    <p>Projects</p>
+                                </div>
+                                <p class="duration">for 4 years</p>
+
+                                <hr>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
         <!--===========Interest Section===========-->
 
         <section id="interest">

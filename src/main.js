@@ -36,7 +36,8 @@ new Vue({
                     $(".header").css({
                         'background': '#fff',
                         'z-index': '10',
-                        'box-shadow': '0 10px 30px rgba(0, 0, 0, 0.19)'
+                        'box-shadow': '0 10px 30px rgba(0, 0, 0, 0.19)',
+                        'transition': 'all 0.7s'
                     });
                     $(".nav-link").css({
                         'color':'black'

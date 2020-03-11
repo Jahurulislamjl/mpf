@@ -4,7 +4,7 @@
 
 
 body{
-  background: lighten($black, 94%);
+  background: $background-color;
   padding-bottom: 50px;
 }
 
@@ -36,7 +36,6 @@ body{
   position: fixed;
   width: 100%;
   background: none;
-  //opacity: 0.6;
   z-index: 1;
   @media (max-width: 768px){
     background: $black;
@@ -116,8 +115,8 @@ body{
 
 .navbar-toggler {
   &.user-defined {
-    background: $black;
-    color: white;
+    //background: $black;
+    color: $primary;
     outline: 0;
   }
 }
@@ -298,7 +297,7 @@ body{
 
 .skills{
   .accordion{
-    box-shadow: 0px 2px 20px -8px  $primary;
+    box-shadow: 0 2px 20px -8px  $primary;
     width: 100%;
     transition: all 0.1ms !important;
 
@@ -1093,15 +1092,45 @@ body{
     padding: 50px;
   }
 
+  .slick-prev{
+    height: 60px;
+    width: 60px;
+    background: $background-color;
+  }
+
+  .slick-next{
+    height: 60px;
+    width: 60px;
+    background: $background-color;
+  }
+
+
+  .slick-prev::before{
+    color: $primary;
+  }
+
+  .slick-next::before{
+    color: $primary;
+  }
+
   .reference-person{
     display: flex;
+
+    @media (max-width: 425px){
+      flex-wrap: wrap;
+    }
 
     .person-pic{
       flex: 1;
       padding: 20px;
 
+      @media (max-width: 425px){
+        display: flex;
+        justify-content: center;
+      }
+
       .p-photo{
-        width: 150px;
+        width: 200px;
       }
     }
     .person-details{
@@ -1123,6 +1152,53 @@ body{
 
 }
 
+//============Statistic Section================
+
+#statistic{
+  .card{
+    border: none;
+    background: $background-color;
+
+    .counter{
+      p{
+        font-size: 48px;
+        font-weight: 400;
+        color: $primary;
+        margin-bottom: 2px;
+      }
+
+    }
+
+    .category{
+      display: flex;
+
+      i{
+        flex: 1;
+        font-size: 18px;
+        color: $text-color;
+      }
+      p{
+        flex: 6;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $text-color;
+        margin-bottom: 0;
+      }
+    }
+
+    .duration{
+      color: $text-color;
+    }
+
+    hr{
+      height: 5px;
+      background: lighten($black, 85%);
+    }
+
+  }
+}
+
+
 
 //==========interest section========
 
@@ -1142,8 +1218,12 @@ body{
       justify-content: center;
       padding: 20px;
 
+      @media (max-width: 425px){
+        flex-wrap: wrap;
+      }
+
       .item{
-        margin: 0 15px;
+        margin: 10px 10px;
         height: 80px ;
         width: 80px ;
         padding: 10px;
@@ -1151,6 +1231,10 @@ body{
         justify-content: center;
         border: 1px solid lighten($black, 85%);
         border-radius: 5px;
+
+        @media (max-width: 425px){
+          margin: 5px 5px;
+        }
         .item-icon{
           font-size: 42px;
           color: $primary;
