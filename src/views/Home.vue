@@ -93,30 +93,52 @@
         </section>
 
 
-        <section >
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
+        <!--======== objectiove section========-->
 
+        <section id="objective" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <p class="objective-text">Hello! I’m Jahurul Islam. Senior Web Developer specializing in front end
+                        development. Experienced with all stages of the development cycle for dynamic web projects.
+                        Well-versed in numerous programming languages including JavaScript, SQL, and C. Stng background
+                        in project management and customer relations.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--==============Testimonial Section=============-->
+
+
+        <section id="testimonial" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="slider">
+                            <div class="quote">
+                                <blockquote class="blockquote">
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+                                      earum, tempora expedita amet quis perspiciatis officia! Maiores, in quidem.</p>
+                                    <footer class="blockquote-footer">
+                                        Jahurul From <a href="#">Read More</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+
+                            <div class="quote">
+                                <blockquote class="blockquote">
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+                                        earum, tempora expedita amet quis perspiciatis officia! Maiores, in quidem.</p>
+                                    <footer class="blockquote-footer">
+                                        Jahurul From <a href="#">Read More</a>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
@@ -859,6 +881,230 @@
                 </div>
             </div>
         </section>
+
+
+        <!--===============Client Section=============-->
+
+        <section id="client" class="py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col section-title">
+                        <p class="title">
+                            My Clients
+                        </p>
+                        <p class="sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio perferendis sequi
+                            voluptate?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="client-slider">
+
+                            <div class="quote" style="background: red;">
+                                <img src="../assets/images/companylogo/mdit.png" alt="">
+                            </div>
+
+                            <div class="quote" style="background: green;">
+                                Hello
+                            </div>
+                            <div class="quote" style="background: yellow;">
+                                Hi
+                            </div>
+                            <div class="quote" style="background: orange;">
+                                Yes
+                            </div>
+                            <div class="quote" style="background: black;">
+                                ohhh
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--===============reference Section=============-->
+
+        <section id="reference" class="py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col section-title">
+                        <p class="title">
+                            References
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="reference-slider">
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--===========Interest Section===========-->
+
+        <section id="interest">
+            <div class="container">
+                <div class="row">
+                    <div class="col section-title">
+                        <p class="title">
+                            My Interests
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="interest-details">
+                        <p class="interest-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor maxime molestias
+                            necessitatibus officia quam quasi sint vero voluptatem. Amet, ea.
+                        </p>
+
+                        <div class="interest-items">
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                            <div class="item" data-toggle="tooltip" title="Hooray!" data-placement="bottom">
+                                <i class="mdi mdi-walk item-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--==============Contact============-->
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col section-title">
+                        <p class="title">
+                            Contact
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row contact-area">
+                    <div class="col-md-6">
+                        <div class="card form-card p-4">
+                            <div class="card-body">
+                                <p class="head-text">Feel free to contact me</p>
+                                <input type="text" class="form-control" placeholder="NAME">
+                                <input type="text" class="form-control" placeholder="EMAIL">
+                                <input type="text" class="form-control" placeholder="SUBJECT">
+                                <textarea class="form-control" rows="3" placeholder="MESSAGE"></textarea>
+                                <input type="checkbox" id="policy">
+                                <label for="policy"> I have read the Privacy Policy note.</label><br>
+                                <input type="button" value="SEND" class="btn">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card address-card p-4">
+                            <div class="card-body">
+                                <div class="contact-address">
+                                    <div class="address">
+                                        <p class="type">EMAIL</p>
+                                        <P class="description">jahurulislam@gmail.com</P>
+                                    </div>
+                                    <div class="address">
+                                        <p class="type">EMAIL</p>
+                                        <P class="description">jahurulislam@gmail.com</P>
+                                    </div>
+                                    <div class="address">
+                                        <p class="type">EMAIL</p>
+                                        <P class="description">jahurulislam@gmail.com</P>
+                                    </div>
+                                    <div class="address">
+                                        <p class="type">EMAIL</p>
+                                        <P class="description">jahurulislam@gmail.com</P>
+                                    </div>
+                                    <div class="address">
+                                        <p class="type">EMAIL</p>
+                                        <P class="description">jahurulislam@gmail.com</P>
+                                    </div>
+                                </div>
+
+                                <div class="map-location">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.656564242234!2d90.36362721445605!3d23.759623394341933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf579e10e0ef%3A0x6b7325b0f90d6a27!2sMohammadpur%20Town%20Hall%20Market!5e0!3m2!1sen!2sbd!4v1583862715187!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -908,40 +1154,8 @@
             }
 
 
-        },
-
-        created(){
-
-            let swiper = new Swiper('.swiper-container', {
-                slidesPerView: 4,
-                loopedSlides: 4,
-                centeredSlides: false,
-                spaceBetween: 10,
-                grabCursor: true,
-                loop: true,
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
-                breakpoints: {
-                    1200: {
-                        slidesPerView: 4,
-                        loopedSlides: 4,
-                        spaceBetween: 10 },
-
-                    1024: {
-                        slidesPerView: 3,
-                        loopedSlides: 3,
-                        spaceBetween: 10 },
-
-                    768: {
-                        slidesPerView: 2,
-                        loopedSlides: 2,
-                        spaceBetween: 10 },
-
-                    675: {
-                        slidesPerView: 1,
-                        loopedSlides: 1,
-                        spaceBetween: 20 } } });
         }
+
 
     }
 

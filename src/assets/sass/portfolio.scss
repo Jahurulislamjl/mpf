@@ -1,6 +1,8 @@
 
 @import "variable";
 
+
+
 body{
   background: lighten($black, 94%);
   padding-bottom: 50px;
@@ -28,33 +30,95 @@ body{
   }
 }
 
-//=======Navbar Section========
+//=======Header Section========
 
-.header{
+.header {
+  position: fixed;
+  width: 100%;
+  background: none;
+  //opacity: 0.6;
+  z-index: 1;
+  @media (max-width: 768px){
+    background: $black;
+  }
+}
 
-  .navbar{
-    display: flex;
+.dropdown-user-define {
+  border: none;
+  top: 45px;
+  border-radius: 0;
+  overflow: hidden;
+  min-width: 200px;
+  background: $white;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.17);
 
-    .navbar-brand{
-      flex: 1;
+  .dropdown-item {
+    color: $text-color;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 7px;
+
+    &:hover {
+      //color: $nav-link;
     }
+    &:active {
+      //color: $bg-primary;
+    }
+  }
+}
 
-    .navbar-link-item{
-      flex: 4;
+.nav-user-define {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s;
+        padding: 15px;
+        margin: 5px;
+        background: none;
+        border: none;
+        @media (max-width: 768px){
+          padding: 5px;
+          margin: 2px;
+          font-size: 14px;
+        }
 
-      .navbar-nav{
-        display: flex;
+        &:hover {
+          //background: $nav-hover;
+        }
 
-        .nav-item{
-          border: none;
-          margin-left: 20px ;
+        &.active {
+          //background: $nav-hover;
+          //outline: 1px solid $outline;
+        }
 
-          .nav-link{
-            border: none;
+        &:focus {
+          //background: $secondary;
+          outline: 0;
+        }
+
+        @media(max-width: 768px) {
+          &:focus {
+            background: $primary;
+
           }
+          z-index: 1;
         }
       }
     }
+  }
+}
+
+.navbar-toggler {
+  &.user-defined {
+    background: $black;
+    color: white;
+    outline: 0;
   }
 }
 
@@ -73,6 +137,10 @@ body{
     height: 100%;
     width: 100%;
   }
+
+  @media (max-width: 768px){
+    z-index: -1;
+  }
 }
 
 
@@ -90,11 +158,18 @@ body{
 
     .biodata{
 
+      @media (max-width: 768px){
+        padding-left: 0 !important;
+      }
+
+      @media (max-width: 425px){
+        padding: 20px !important;
+      }
       .intro{
         .hello{
           background: $primary;
           color: $white;
-          font-weight: bold;
+          font-weight: 500;
           font-size: 18px;
         }
       }
@@ -106,14 +181,26 @@ body{
           font-size: 36px;
           margin-bottom: 0;
 
+          @media (max-width: 768px){
+            font-size: 28px;
+          }
+
+          @media (max-width: 375px){
+            font-size: 24px;
+          }
+
           span{
-            font-weight: bold;
+            font-weight: 500;
           }
         }
 
         .designation{
           font-size: 22px;
           margin-bottom: 0;
+
+          @media (max-width: 375px){
+            font-size: 20px;
+          }
         }
       }
 
@@ -124,14 +211,22 @@ body{
 
           .bio-title{
             flex: 1;
-            font-weight: bold;
+            font-weight: 500;
+
+            @media (max-width: 375px){
+              font-size: 14px;
+            }
           }
 
           .bio-description{
             flex: 3;
-            font-weight: bold;
+            font-weight: 500;
             color: lighten($black, 60%);
 
+            @media (max-width: 375px){
+              font-size: 14px;
+              margin-left: 5px;
+            }
           }
         }
       }
@@ -147,6 +242,10 @@ body{
         color: $white;
         font-size: 28px;
         margin: 0 20px;
+
+        @media (max-width: 425px){
+          font-size: 22px;
+        }
 
         &:hover{
           color: $black;
@@ -165,9 +264,35 @@ body{
         }
       }
     }
+
+    @media (max-width: 768px){
+      z-index: -1;
+    }
   }
 }
 
+
+
+//========== objective & testimonial section=============
+
+#objective{
+  .objective-text{
+    text-align: center;
+    font-size: 22px;
+    color: lighten($black, 35%);
+
+    @media (max-width: 425px){
+      font-size: 20px;
+    }
+  }
+}
+
+
+#testimonial{
+  .slick-prev::before, .slick-next::before{
+    color: $primary;
+  }
+}
 
 //=======Skills==============
 
@@ -247,7 +372,7 @@ body{
 }
 
 
-//============portfolio section=================
+//============Service section=================
 
 .service-items{
 
@@ -369,6 +494,10 @@ body{
       border: none;
       z-index: 1;
       border-radius: 100%;
+
+      @media (max-width: 768px){
+        z-index: -1;
+      }
     }
 
     &:hover{
@@ -596,6 +725,10 @@ body{
       border: none;
       z-index: 1;
       border-radius: 100%;
+
+      @media (max-width: 768px){
+        z-index: -1;
+      }
     }
 
     &:hover{
@@ -946,18 +1079,154 @@ body{
 }
 
 
-.swiper-container {
-  width: 100%;
-  height: 300px;
-  background: red;
+//============My Client Section=============
 
-  .swiper-slide {
-    color: #000;
-    text-align: center;
-    padding: 100px 0px;
 
+
+//=============references===================
+
+#reference{
+  .reference-slider{
+    min-height: 400px;
+    background: $white;
+    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+    padding: 50px;
+  }
+
+  .reference-person{
+    display: flex;
+
+    .person-pic{
+      flex: 1;
+      padding: 20px;
+
+      .p-photo{
+        width: 150px;
+      }
+    }
+    .person-details{
+      flex: 3;
+      padding: 20px;
+
+      .name{
+        font-size: 28px;
+        font-weight: 500;
+
+      }
+
+      p{
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}
+
+
+//==========interest section========
+
+#interest{
+  .interest-details{
+    background: $white;
+    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+    padding: 50px;
+
+    .interest-text{
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .interest-items{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+
+      .item{
+        margin: 0 15px;
+        height: 80px ;
+        width: 80px ;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid lighten($black, 85%);
+        border-radius: 5px;
+        .item-icon{
+          font-size: 42px;
+          color: $primary;
+        }
+
+      }
+
+    }
   }
 }
 
+//============Contact Section==========
+
+
+#contact{
+  .contact-area{
+    .card{
+      border: none;
+      border-radius: 0;
+      height: 100%;
+      box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+    }
+    .form-card{
+
+      .head-text{
+        font-size: 28px;
+      }
+
+      input[type="text"],input[type="text"],textarea,input[type="checkbox"]{
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid lighten($black, 80%);
+
+      }
+
+      input[type="checkbox"]{
+        height: 20px;
+        width: 20px;
+      }
+      label{
+        margin-left: 20px;
+        font-size: 22px;
+      }
+
+      .btn{
+        background: $primary;
+        font-weight: 500;
+        color: $white;
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 5px 30px;
+      }
+
+    }
+
+    .address-card{
+      .contact-address{
+        .address{
+          display: flex;
+
+          .type{
+            flex: 1;
+          }
+          .description{
+            flex: 4;
+          }
+        }
+      }
+      .map-location{
+        overflow: hidden;
+        height: 300px;
+      }
+    }
+
+  }
+}
 
 
