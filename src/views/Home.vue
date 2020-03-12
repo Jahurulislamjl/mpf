@@ -929,77 +929,9 @@
         </section>
 
 
-        <!--===============reference Section=============-->
-
-        <section id="reference" class="py-5">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col section-title">
-                        <p class="title">
-                            References
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col">
-                        <div class="reference-slider">
-
-                            <div class="reference-person">
-                                <div class="person-pic">
-                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
-                                </div>
-                                <div class="person-details">
-                                    <p class="name">Md. Jahurul Islam</p>
-                                    <p>Software Engineer</p>
-                                    <p>MicroDreamIT</p>
-                                    <p>Phone: +880 1880 864 288</p>
-                                    <p>Email: jahurulislam.soft@gmail.com</p>
-
-                                </div>
-                            </div>
-
-                            <div class="reference-person">
-                                <div class="person-pic">
-                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
-                                </div>
-                                <div class="person-details">
-                                    <p class="name">Md. Jahurul Islam</p>
-                                    <p>Software Engineer</p>
-                                    <p>MicroDreamIT</p>
-                                    <p>Phone: +880 1880 864 288</p>
-                                    <p>Email: jahurulislam.soft@gmail.com</p>
-
-                                </div>
-                            </div>
-
-                            <div class="reference-person">
-                                <div class="person-pic">
-                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
-                                </div>
-                                <div class="person-details">
-                                    <p class="name">Md. Jahurul Islam</p>
-                                    <p>Software Engineer</p>
-                                    <p>MicroDreamIT</p>
-                                    <p>Phone: +880 1880 864 288</p>
-                                    <p>Email: jahurulislam.soft@gmail.com</p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
         <!--===============Statistics Section===========-->
 
-        <div id="statistic">
+        <div id="statistic" class="py-5">
             <div class="container">
 
                 <div class="row">
@@ -1086,9 +1018,121 @@
 
 
 
+        <!--===============reference Section=============-->
+
+        <section id="reference" class="py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col section-title">
+                        <p class="title">
+                            References
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="reference-slider">
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                            <div class="reference-person">
+                                <div class="person-pic">
+                                    <img src="../assets/images/jahurul.jpg" class="p-photo" alt="">
+                                </div>
+                                <div class="person-details">
+                                    <p class="name">Md. Jahurul Islam</p>
+                                    <p>Software Engineer</p>
+                                    <p>MicroDreamIT</p>
+                                    <p>Phone: +880 1880 864 288</p>
+                                    <p>Email: jahurulislam.soft@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--===============Instagram Section=============-->
+
+        <section id="instagram" class="py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col section-title">
+                        <p class="title">
+                            Instagram Section
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="instagram-slider">
+
+                            <div class="image-slide">
+                                <img src="../assets/images/cycle.jpg" alt="">
+                            </div>
+
+                            <div class="image-slide">
+                                <img src="../assets/images/hand.jpg" alt="">
+                            </div>
+
+                            <div class="image-slide">
+                                <img src="../assets/images/bridge.jpg" alt="">
+                            </div>
+
+                            <div class="image-slide">
+                                <img src="../assets/images/sundown.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
         <!--===========Interest Section===========-->
 
-        <section id="interest">
+        <section id="interest" class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col section-title">
@@ -1132,9 +1176,130 @@
         </section>
 
 
+        <!--=============== Tab Section ======================-->
+
+        <section id="tab-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col section-title">
+                        <p class="title">
+                            Tab Section
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="tabs p-5">
+                        <div class="tab-link pb-4">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a href="#tab1" class="nav-link">Tab1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#tab2" class="nav-link">Tab2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#tab3" class="nav-link">Tab3</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div id="tab1" class="tab-pane active">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab exercitationem facere
+                                    iusto laboriosam maiores nulla numquam officiis quo rem vel. Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Dicta, explicabo?</p>
+                            </div>
+                            <div id="tab2" class="tab-pane fade">
+                                <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab exercitationem facere
+                                    iusto laboriosam maiores nulla numquam officiis quo rem vel. Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Dicta, explicabo?</p>
+                            </div>
+                            <div id="tab3" class="tab-pane fade">
+                                <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab exercitationem facere
+                                    iusto laboriosam maiores nulla numquam officiis quo rem vel. Lorem ipsum dolor sit
+                                    amet, consectetur adipisicing elit. Dicta, explicabo?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================FAQ Section=========================-->
+
+        <section id="faq-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col section-title">
+                        <p class="title">
+                            FAQ
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapsable1">
+                            Question 1
+                        </div>
+                        <div class="collapse" id="collapsable1">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
+                                saepe veniam! Consequatur, modi quidem!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapsable2">
+                            Question 1
+                        </div>
+                        <div class="collapse" id="collapsable2">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
+                                saepe veniam! Consequatur, modi quidem!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapsable3">
+                            Question 1
+                        </div>
+                        <div class="collapse" id="collapsable3">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
+                                saepe veniam! Consequatur, modi quidem!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapsable4">
+                            Question 1
+                        </div>
+                        <div class="collapse" id="collapsable4">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
+                                saepe veniam! Consequatur, modi quidem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
         <!--==============Contact============-->
 
-        <section id="contact">
+        <section id="contact" class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col section-title">

@@ -1131,6 +1131,10 @@ body{
 
       .p-photo{
         width: 200px;
+
+        @media (max-width: 320px){
+          width: 150px;
+        }
       }
     }
     .person-details{
@@ -1141,11 +1145,19 @@ body{
         font-size: 28px;
         font-weight: 500;
 
+        @media (max-width: 320px){
+          font-size: 20px;
+          font-weight: 400;
+        }
       }
 
       p{
         font-size: 20px;
         margin-bottom: 5px;
+
+        @media (max-width: 320px){
+          font-size: 13px;
+        }
       }
     }
   }
@@ -1200,6 +1212,94 @@ body{
 
 
 
+//=============Instagram Section===================
+
+#instagram{
+  .instagram-slider{
+
+    img{
+      width: 100%;
+      height: 650px;
+      z-index: -1;
+
+      @media (max-width: 768px){
+        height: 500px;
+      }
+
+      @media (max-width: 425px){
+        height: 300px!important;
+      }
+    }
+  }
+
+  .slick-prev{
+    height: 70px;
+    width: 70px;
+    margin-left: 1030px!important;
+    margin-top: -260px !important;
+    background: rgba($black, 0.1);
+    border: 1px solid lighten($black, 85%);
+    z-index: 1;
+
+    @media (max-width: 1024px){
+      margin-left: 850px!important;
+    }
+
+    @media (max-width: 768px){
+      margin-left: 611px!important;
+      margin-top: -180px !important;
+    }
+
+    @media (max-width: 425px){
+      margin-left: 365px!important;
+      margin-top: -115px!important;
+      height: 40px;
+      width: 40px;
+    }
+
+    @media (max-width: 375px){
+      margin-left: 315px!important;
+    }
+
+    @media (max-width: 320px){
+      margin-left: 260px!important;
+    }
+  }
+
+  .slick-next{
+    height: 70px;
+    width: 70px;
+    margin-right: 59px!important;
+    margin-top: -170px !important;
+    background: rgba($black, 0.1);
+    z-index: 1;
+
+    @media (max-width: 768px){
+      margin-top: -100px !important;
+    }
+
+    @media (max-width: 425px){
+      margin-right: 40px!important;
+      margin-top: -60px!important;
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+
+  .slick-prev::before{
+    color: $primary;
+  }
+
+  .slick-next::before{
+    color: $primary;
+  }
+
+
+}
+
+
+
 //==========interest section========
 
 #interest{
@@ -1246,8 +1346,70 @@ body{
   }
 }
 
-//============Contact Section==========
 
+//===========tab section============
+
+#tab-section{
+  .tabs{
+    background: $white;
+    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+
+
+    .nav-tabs{
+      border: none;
+      display: flex;
+      justify-content: center;
+
+      .nav-item{
+
+        .nav-link{
+          border: none;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .tab-content{
+      .tab-pane{
+        font-size: 20px;
+      }
+    }
+
+
+  }
+}
+
+
+//=============FAQ section=============
+
+#faq-section{
+  .card{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin: 10px 0;
+    box-shadow: 0 2px 20px -7px lighten($black, 50%);
+
+    .card-header{
+      background: $primary;
+      border-radius: 0;
+      border: none;
+      color: $white;
+      font-size: 22px;
+    }
+
+    .card-body{
+      border-radius: 0;
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+
+//============Contact Section==========
 
 #contact{
   .contact-area{

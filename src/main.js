@@ -79,12 +79,28 @@ new Vue({
             // ============reference slide==========
 
             $('.reference-slider').slick({
-                //infinite:true,
-                slideToShow: 2,
-                slideToScroll: 2
+                infinite:true,
+                slideToShow: 1,
+                slideToScroll: 1
             });
 
+
+            $('.instagram-slider').slick({
+                infinite:true,
+                slideToShow: 1,
+                slideToScroll: 1
+            });
+
+            //==========interest===============
+
             $('[data-toggle="tooltip"]').tooltip();
+
+
+            //==============tab section========
+
+            $(".nav-tabs .nav-link").click(function(){
+                $(this).tab('show');
+            });
         });
     }
 }).$mount('#app')
