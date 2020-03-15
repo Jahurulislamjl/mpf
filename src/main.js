@@ -11,6 +11,10 @@ import './assets/css/slick.css'
 import './assets/css/slick-theme.css'
 import './assets/js/slick.min.js'
 
+import './assets/css/uikit.min.css'
+import './assets/js/uikit.min.js'
+import './assets/js/uikit-icons.min.js'
+
 
 
 
@@ -60,19 +64,28 @@ new Vue({
             // =======testimonial slide==========
 
             $('.slider').slick({
+                dots: true,
                 infinite:true,
                 slideToShow: 1,
-                slideToScroll: 1
+                slideToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             });
 
 
 
             // ============my client slide==========
 
+
             $('.client-slider').slick({
-                //infinite:true,
-                slideToShow: 2,
-                slideToScroll: 2
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 2000
             });
 
 
@@ -81,14 +94,19 @@ new Vue({
             $('.reference-slider').slick({
                 infinite:true,
                 slideToShow: 1,
-                slideToScroll: 1
+                slideToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             });
 
 
             $('.instagram-slider').slick({
+                dots: true,
                 infinite:true,
                 slideToShow: 1,
-                slideToScroll: 1
+                slideToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             });
 
             //==========interest===============

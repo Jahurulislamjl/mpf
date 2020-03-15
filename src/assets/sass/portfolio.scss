@@ -8,6 +8,19 @@ body{
   padding-bottom: 50px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
+:target{
+  scroll-margin-top: 100px;
+
+}
+
+#about:target{
+  scroll-margin-top: 500px;
+}
 
 .progress-bar{
  width:auto!important;
@@ -36,9 +49,14 @@ body{
   position: fixed;
   width: 100%;
   background: none;
-  z-index: 1;
-  @media (max-width: 768px){
-    background: $black;
+  z-index: 10!important;
+
+  .navbar{
+    @media (max-width: 768px){
+      border-bottom: 5px solid #d45264;
+      background: #ec5f72;
+      box-shadow: -1px 0px 9px 2px #444444a1;
+    }
   }
 }
 
@@ -81,6 +99,8 @@ body{
         margin: 5px;
         background: none;
         border: none;
+
+
         @media (max-width: 768px){
           padding: 5px;
           margin: 2px;
@@ -106,7 +126,7 @@ body{
             background: $primary;
 
           }
-          z-index: 1;
+          //z-index: 1;
         }
       }
     }
@@ -115,7 +135,6 @@ body{
 
 .navbar-toggler {
   &.user-defined {
-    //background: $black;
     color: $primary;
     outline: 0;
   }
@@ -137,9 +156,6 @@ body{
     width: 100%;
   }
 
-  @media (max-width: 768px){
-    z-index: -1;
-  }
 }
 
 
@@ -149,10 +165,13 @@ body{
   .about-me{
     width: 100%;
     background: $white;
-    margin-top: -300px;
-    z-index: 1;
-    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
-    //font-family: sans-serif;
+    -webkit-transform: translateY(-300px)!important;
+    -moz-transform: translateY(-300px)!important;
+    -ms-transform: translateY(-300px)!important;
+    -o-transform: translateY(-300px)!important;
+    transform: translateY(-300px)!important;
+    //z-index: 1;
+    box-shadow: 0 2px 20px -7px lighten($black, 50%);
     color: lighten($black, 35%);
 
     .biodata{
@@ -241,6 +260,11 @@ body{
         color: $white;
         font-size: 28px;
         margin: 0 20px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         @media (max-width: 425px){
           font-size: 22px;
@@ -248,25 +272,17 @@ body{
 
         &:hover{
           color: $black;
+          background: lighten($primary, 5%);
+          border-radius: 100%;
         }
 
         .mdi{
           padding: 10px;
           border: none;
-          width: 51px !important;
-
-          &:hover{
-            background: lighten($primary, 5%);
-            border-radius: 100%;
-          }
-
         }
       }
     }
 
-    @media (max-width: 768px){
-      z-index: -1;
-    }
   }
 }
 
@@ -474,13 +490,13 @@ body{
     .arrow-box {
       height: 30px;
       width: 30px;
-      background: darken($primary, 15%);
+      background: $primary;
       transform: rotate(45deg);
       position: absolute;
       display: block;
-      box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+      box-shadow: 0 2px 20px -7px lighten($black, 50%);
       border: none;
-      z-index: -1;
+      z-index: 1;
     }
 
     .line-dot{
@@ -489,7 +505,7 @@ body{
       background: $primary;
       position: absolute;
       display: block;
-      box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+      box-shadow: 0 2px 20px -7px lighten($black, 50%);
       border: none;
       z-index: 1;
       border-radius: 100%;
@@ -500,7 +516,6 @@ body{
     }
 
     &:hover{
-      border: 2px solid $primary;
 
       .arrow-box{
         z-index: 1;
@@ -599,7 +614,6 @@ body{
   .experience-right{
     padding-left: 50px;
     margin-top: 80px;
-    //border-left: 1px solid $primary;
 
     @media (max-width: 425px){
       padding-left: 0!important;
@@ -609,7 +623,7 @@ body{
       border-right: none;
 
       .arrow-box{
-        margin-left: -35px;
+        margin-left: -37px;
         margin-top: -220px;
 
         @media (max-width: 1024px){
@@ -709,9 +723,9 @@ body{
       transform: rotate(45deg);
       position: absolute;
       display: block;
-      box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+      box-shadow: 0 2px 20px -7px lighten($black, 50%);
       border: none;
-      z-index: -1;
+      z-index: 1;
     }
 
     .line-dot{
@@ -731,8 +745,6 @@ body{
     }
 
     &:hover{
-      border: 2px solid $primary;
-
       .arrow-box{
         z-index: 1;
         border: 3px solid $primary;
@@ -840,7 +852,7 @@ body{
       border-right: none;
 
       .arrow-box{
-        margin-left: -35px;
+        margin-left: -37px;
         margin-top: -220px;
 
         @media (max-width: 1024px){
@@ -1080,7 +1092,26 @@ body{
 
 //============My Client Section=============
 
+.client-slider{
+  .slide{
+    height: 150px;
+    width: 200px!important;
+    margin: 10px 10px;
 
+    img{
+      height: 150px;
+      width: 200px;
+    }
+  }
+
+  .slick-prev::before{
+    color: $black;
+  }
+
+  .slick-next::before{
+    color: $black;
+  }
+}
 
 //=============references===================
 
@@ -1088,7 +1119,7 @@ body{
   .reference-slider{
     min-height: 400px;
     background: $white;
-    box-shadow: 0px 2px 20px -7px lighten($black, 50%);
+    box-shadow: 0 2px 20px -7px lighten($black, 50%);
     padding: 50px;
   }
 
@@ -1194,12 +1225,13 @@ body{
         font-size: 18px;
         text-transform: uppercase;
         color: $text-color;
-        margin-bottom: 0;
+        margin: 0;
       }
     }
 
     .duration{
       color: $text-color;
+      margin-top: 0;
     }
 
     hr{
@@ -1475,4 +1507,36 @@ body{
   }
 }
 
+
+//===========Photo Gallery Page===============================================================================
+
+.photo-gallery-inner{
+  position: relative;
+  height: 300px;
+  background: url("../images/popcorn.jpg") no-repeat center;
+  background-size: cover;
+
+  .dark-overlay{
+    position: relative;
+    background: $black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (max-width: 768px){
+    z-index: -1;
+  }
+}
+
+#photo-gallery{
+  img{
+    min-height: 270px;
+  }
+
+  .image{
+    width: 200px;
+    height: 200px;
+  }
+}
 

@@ -4,7 +4,7 @@
             <div class="">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="">
-                        <img src="../../assets/images/jahurul.jpg" height="30" alt="">
+                        <img src="../../assets/images/jahurul.jpg" width="30" alt="">
                     </a>
                     <button class="navbar-toggler user-defined" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
@@ -17,29 +17,29 @@
                     <div class="collapse navbar-collapse nav-user-define micro-nav" id="navbarSupportedContent-4">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <button class="nav-link"  @click="$root.scrollToElement('about')">
+                                <a class="nav-link" href="/#about" >
                                     about
-                                </button>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link"  @click="$root.scrollToElement('skills')">
+                                <a class="nav-link" href="/#skill" >
                                     skills
-                                </button>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link"  @click="$root.scrollToElement('home-feature')">
+                                <a class="nav-link"  href="/#portfolio">
                                     portfolio
-                                </button>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link"  @click="$root.scrollToElement('home-team')">
+                                <a class="nav-link" href="/#experience">
                                     experience
-                                </button>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" @click="$root.scrollToElement('home-price')">
+                                <a class="nav-link" href="/#pricing">
                                     price
-                                </button>
+                                </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5"
@@ -47,22 +47,22 @@
                                     <i class="fa fa-newspaper-o"></i> blog </a>
                                 <div class="dropdown-menu dropdown-menu-right dropdown-user-define"
                                      aria-labelledby="navbarDropdownMenuLink-4">
-                                    <router-link class="dropdown-item" :to="{name:''}">image gallery</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'photoGallery'}">photo gallery</router-link>
                                     <router-link class="dropdown-item" :to="{name:''}">video gallery</router-link>
 
                                 </div>
                             </li>
 
-                            <li class="nav-item">
-                                <button class="nav-link" @click="$root.scrollToElement('home-contact')">
-                                    calendar
-                                </button>
-                            </li>
+                            <!--<li class="nav-item">-->
+                                <!--<button class="nav-link" @click="$root.scrollToElement('home-contact')">-->
+                                    <!--calendar-->
+                                <!--</button>-->
+                            <!--</li>-->
 
                             <li class="nav-item">
-                                <button class="nav-link" @click="$root.scrollToElement('home-contact')">
+                                <a class="nav-link" href="/#contact" >
                                     contact
-                                </button>
+                                </a>
                             </li>
 
                             <li class="nav-item dropdown">

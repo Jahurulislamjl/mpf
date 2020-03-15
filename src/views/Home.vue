@@ -7,7 +7,7 @@
         </div>
 
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="row">
                     <div class="about-me">
@@ -95,7 +95,7 @@
 
         <!--======== objectiove section========-->
 
-        <section id="objective" class="py-5">
+        <section id="objective" class="pb-5">
             <div class="container">
                 <div class="row">
                     <p class="objective-text">Hello! I’m Jahurul Islam. Senior Web Developer specializing in front end
@@ -144,7 +144,7 @@
 
         <!--=========Skill Section==========-->
 
-        <section class="skills py-5">
+        <section class="skills py-5" id="skill">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -905,22 +905,30 @@
                     <div class="col">
                         <div class="client-slider">
 
-                            <div class="quote" style="background: red;">
-                                <img src="../assets/images/companylogo/mdit.png" alt="">
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/mdit.png" alt="">
                             </div>
 
-                            <div class="quote" style="background: green;">
-                                Hello
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/bitm.png" alt="">
                             </div>
-                            <div class="quote" style="background: yellow;">
-                                Hi
+
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/mdit.png" alt="">
                             </div>
-                            <div class="quote" style="background: orange;">
-                                Yes
+
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/bitm.png" alt="">
                             </div>
-                            <div class="quote" style="background: black;">
-                                ohhh
+
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/mdit.png" alt="">
                             </div>
+
+                            <div class="slide">
+                                <img src=".././assets/images/companylogo/bitm.png" alt="">
+                            </div>
+
                         </div>
                     </div>
 
