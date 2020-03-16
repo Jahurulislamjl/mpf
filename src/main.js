@@ -15,15 +15,16 @@ import './assets/css/uikit.min.css'
 import './assets/js/uikit.min.js'
 import './assets/js/uikit-icons.min.js'
 
-
-
+import WOW from './assets/js/wow.min'
 
 import ProgressBar from 'vuejs-progress-bar'
 
 
-Vue.use(ProgressBar),
 
-Vue.config.productionTip = false,
+
+Vue.use(ProgressBar);
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,
@@ -32,6 +33,9 @@ new Vue({
   },
 
     mounted() {
+
+        new WOW.WOW().init();
+
         $(document).ready(function () {
 
             $(window).scroll(function(){
@@ -121,6 +125,7 @@ new Vue({
             });
         });
     }
+
 }).$mount('#app')
 
 

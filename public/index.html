@@ -7,15 +7,39 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
 
+
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app">
-
-
     </div>
+
+    <a id="pickUp" class="wow bounceInRight" href="" onclick="goTop()">
+        <i class="mdi mdi-arrow-up"></i>
+    </a>
+
+
+
+    <script type="text/javascript">
+
+
+
+        function goTop(){
+
+            event.preventDefault();window.scroll({top: 0, behavior: "smooth"});
+        }
+        window.addEventListener("scroll", function(event) {
+            let top = this.scrollY;
+            top >1300? document.getElementById("pickUp").style.display='block':
+                document.getElementById("pickUp").style.display='none'
+        });
+
+
+
+    </script>
+
 
 
   </body>

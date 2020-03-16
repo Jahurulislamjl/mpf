@@ -1,11 +1,11 @@
 
 @import "variable";
+@import '../css/animate.min.css';
 
 
 
 body{
   background: $background-color;
-  padding-bottom: 50px;
 }
 
 html{
@@ -62,7 +62,7 @@ html{
 
 .dropdown-user-define {
   border: none;
-  top: 45px;
+  top: 60px;
   border-radius: 0;
   overflow: hidden;
   min-width: 200px;
@@ -291,6 +291,7 @@ html{
 //========== objective & testimonial section=============
 
 #objective{
+  margin-top: -220px!important;
   .objective-text{
     text-align: center;
     font-size: 22px;
@@ -1094,13 +1095,13 @@ html{
 
 .client-slider{
   .slide{
-    height: 150px;
-    width: 200px!important;
-    margin: 10px 10px;
+    height: 80px;
+    width: 120px;
+    margin: 0 40px;
 
     img{
-      height: 150px;
-      width: 200px;
+      height: 80px;
+      width: 120px;
     }
   }
 
@@ -1457,6 +1458,12 @@ html{
         font-size: 28px;
       }
 
+      .form-control{
+        &:focus{
+          box-shadow: none!important;
+        }
+      }
+
       input[type="text"],input[type="text"],textarea,input[type="checkbox"]{
         margin-bottom: 30px;
         border: none;
@@ -1466,12 +1473,12 @@ html{
       }
 
       input[type="checkbox"]{
-        height: 20px;
+        height: 18px;
         width: 20px;
       }
       label{
         margin-left: 20px;
-        font-size: 22px;
+        font-size: 20px;
       }
 
       .btn{
@@ -1481,29 +1488,108 @@ html{
         font-size: 20px;
         margin-top: 10px;
         padding: 5px 30px;
+        border-radius: 0;
       }
 
     }
 
     .address-card{
+      .card-body{
+        padding: 0 !important;
+      }
+
       .contact-address{
+        padding: 50px 40px;
         .address{
           display: flex;
 
           .type{
             flex: 1;
+            margin: 0!important;
           }
           .description{
             flex: 4;
+            margin-top: 0!important;
+            margin-bottom: 5px;
           }
         }
       }
       .map-location{
         overflow: hidden;
-        height: 300px;
+        position: relative;
+
+        .dark-overly{
+          position: absolute;
+          background: $black;
+          opacity: 0.4;
+          height: 100%;
+          width: 100%;
+
+        }
       }
     }
 
+  }
+}
+
+
+//=================Footer Section=================
+
+.footer{
+  .social-media{
+    display: flex;
+    justify-content: center;
+
+    .icon-link{
+      text-decoration: none;
+      color: $primary;
+      font-size: 28px;
+      margin: 0 20px;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 425px){
+        font-size: 22px;
+      }
+
+      &:hover{
+        color: $black;
+        background: lighten($primary, 30%);
+        border-radius: 100%;
+      }
+
+      .mdi{
+        padding: 10px;
+        border: none;
+      }
+    }
+  }
+}
+
+//=================pickup Button============
+
+#pickUp {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  background: $primary;
+  padding: 10px;
+  right: 50px;
+  z-index: 100;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  i {
+    position: absolute;
+    left: 13px;
+    top: 6px;
+    font-size: 1.5rem;
+    color: #fff;
   }
 }
 

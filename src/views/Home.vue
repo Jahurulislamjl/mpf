@@ -15,7 +15,8 @@
                         <div class="profile pt-3 px-4">
                             <div class="row">
 
-                                <div class="col-md-5 profile-picture p-5">
+                                <div class="col-md-5 profile-picture p-5 wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <img src="../assets/images/jahurul.jpg" alt="" width="100%">
                                 </div>
 
@@ -144,7 +145,8 @@
 
         <!--=========Skill Section==========-->
 
-        <section class="skills py-5" id="skill">
+        <section class="skills py-5 wow fadeInUp" data-wow-delay="0.6s"
+                 data-wow-duration="2s" id="skill">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -286,7 +288,8 @@
 
         <!--=======portfolio section========-->
 
-        <section id="portfolio">
+        <section id="portfolio" class="wow fadeInUp" data-wow-delay="0.6s"
+                 data-wow-duration="2s">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -317,7 +320,8 @@
 
         <!--==============Service Section===========-->
 
-        <section id="service">
+        <section id="service" class="wow fadeInUp" data-wow-delay="0.6s"
+                 data-wow-duration="2s">
             <div class="container">
                 <div class="row">
                     <div class="col-12 section-title">
@@ -473,7 +477,8 @@
                         <div class="row">
 
                             <div class="col-md-6 experience-left">
-                                <div class="card left-card">
+                                <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -495,7 +500,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card left-card">
+                                <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -517,7 +523,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card left-card">
+                                <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -543,7 +550,8 @@
 
 
                             <div class="col-md-6 experience-right">
-                                <div class="card right-card">
+                                <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body ">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -565,7 +573,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card right-card">
+                                <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -587,7 +596,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card right-card">
+                                <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -636,7 +646,8 @@
                         <div class="row">
 
                             <div class="col-md-6 training-left">
-                                <div class="card left-card">
+                                <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -658,7 +669,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card left-card">
+                                <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -683,7 +695,8 @@
                             </div>
 
 
-                            <div class="col-md-6 training-right">
+                            <div class="col-md-6 training-right wow fadeInRight" data-wow-delay="0.6s"
+                                 data-wow-duration="2s">
                                 <div class="card right-card">
                                     <div class="card-body ">
                                         <div class="year">
@@ -706,7 +719,8 @@
                                     </div>
                                 </div>
 
-                                <div class="card right-card">
+                                <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
+                                     data-wow-duration="2s">
                                     <div class="card-body ">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -753,7 +767,8 @@
 
                     <div class="col-12 university-section pt-3">
                         <div class="university">
-                            <div class="card">
+                            <div class="card wow fadeInRight" data-wow-delay="0.6s"
+                                 data-wow-duration="2s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>
@@ -771,7 +786,8 @@
 
                     <div class="col-12 college-section">
                         <div class="college">
-                            <div class="card">
+                            <div class="card wow fadeInRight" data-wow-delay="0.6s"
+                                 data-wow-duration="2s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>
@@ -789,7 +805,8 @@
 
                     <div class="col-12 school-section">
                         <div class="school">
-                            <div class="card">
+                            <div class="card wow fadeInRight" data-wow-delay="0.6s"
+                                 data-wow-duration="2s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>
@@ -1319,7 +1336,7 @@
 
                 <div class="row contact-area">
                     <div class="col-md-6">
-                        <div class="card form-card p-4">
+                        <div class="card form-card p-4 ">
                             <div class="card-body">
                                 <p class="head-text">Feel free to contact me</p>
                                 <input type="text" class="form-control" placeholder="NAME">
@@ -1333,7 +1350,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card address-card p-4">
+                        <div class="card address-card">
                             <div class="card-body">
                                 <div class="contact-address">
                                     <div class="address">
@@ -1359,7 +1376,10 @@
                                 </div>
 
                                 <div class="map-location">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.656564242234!2d90.36362721445605!3d23.759623394341933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf579e10e0ef%3A0x6b7325b0f90d6a27!2sMohammadpur%20Town%20Hall%20Market!5e0!3m2!1sen!2sbd!4v1583862715187!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                    <div class="dark-overly">
+                                    </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.656564242234!2d90.36362721445605!3d23.759623394341933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf579e10e0ef%3A0x6b7325b0f90d6a27!2sMohammadpur%20Town%20Hall%20Market!5e0!3m2!1sen!2sbd!4v1583862715187!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
                                 </div>
                             </div>
                         </div>
@@ -1374,6 +1394,7 @@
 
 
     import ProgressBar from '../../node_modules/vuejs-progress-bar'
+
 
     export default {
 
@@ -1415,6 +1436,9 @@
 
             }
 
+
+        },
+        mounted(){
 
         }
 
