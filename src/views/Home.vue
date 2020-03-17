@@ -108,7 +108,6 @@
         </section>
 
 
-
         <!--==============Testimonial Section=============-->
 
 
@@ -119,8 +118,9 @@
                         <div class="slider">
                             <div class="quote">
                                 <blockquote class="blockquote">
-                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
-                                      earum, tempora expedita amet quis perspiciatis officia! Maiores, in quidem.</p>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Magnam
+                                        earum, tempora expedita amet quis perspiciatis officia! Maiores, in quidem.</p>
                                     <footer class="blockquote-footer">
                                         Jahurul From <a href="#">Read More</a>
                                     </footer>
@@ -129,7 +129,8 @@
 
                             <div class="quote">
                                 <blockquote class="blockquote">
-                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Magnam
                                         earum, tempora expedita amet quis perspiciatis officia! Maiores, in quidem.</p>
                                     <footer class="blockquote-footer">
                                         Jahurul From <a href="#">Read More</a>
@@ -288,7 +289,7 @@
 
         <!--=======portfolio section========-->
 
-        <section id="portfolio" class="wow fadeInUp" data-wow-delay="0.6s"
+        <section id="portfolio" class="py-5 wow fadeInUp" data-wow-delay="0.6s"
                  data-wow-duration="2s">
             <div class="container">
                 <div class="row">
@@ -302,25 +303,144 @@
                         </p>
                     </div>
 
-                    <nav class="navbar navbar-expand-sm">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Photography</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">UX design</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="row">
+                        <div class="tabs">
+                            <div class="tab-link pb-4">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link" @click.prevent="portfolioCat='webDesign'">web
+                                            design</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link" @click.prevent="portfolioCat='uxDesign'">ux
+                                            design</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link" @click.prevent="portfolioCat='other'">others</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content">
+
+                                <div v-if="portfolioCat=='webDesign'" class="web-design-items active">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="dark-overly">
+
+                                                    </div>
+                                                    <img src="../assets/images/hand.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="dark-overly">
+
+                                                    </div>
+                                                    <img src="../assets/images/hand.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="dark-overly">
+
+                                                    </div>
+                                                    <img src="../assets/images/hand.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div v-if="portfolioCat=='uxDesign'" class="ux-design-items">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card">
+
+                                                <div class="card-body">
+                                                    <div class="dark-overly">
+
+                                                    </div>
+                                                    <img src="../assets/images/cycle.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="dark-overly">
+
+                                                </div>
+                                                <div class="card-body">
+                                                    <img src="../assets/images/cycle.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="dark-overly">
+
+                                                </div>
+                                                <div class="card-body">
+                                                    <img src="../assets/images/cycle.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div v-if="portfolioCat=='other'" class="other-items">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="dark-overly">
+
+                                                </div>
+                                                <div class="card-body">
+                                                    <img src="../assets/images/bridge.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="dark-overly">
+
+                                                </div>
+                                                <div class="card-body">
+                                                    <img src="../assets/images/bridge.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <div class="dark-overly">
+
+                                                </div>
+                                                <div class="card-body">
+                                                    <img src="../assets/images/bridge.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
 
-
         <!--==============Service Section===========-->
 
-        <section id="service" class="wow fadeInUp" data-wow-delay="0.6s"
+        <section id="service" class="py-5 wow fadeInUp" data-wow-delay="0.6s"
                  data-wow-duration="2s">
             <div class="container">
                 <div class="row">
@@ -348,8 +468,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -366,8 +488,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,8 +508,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -405,8 +531,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -423,8 +551,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -441,8 +571,10 @@
                                         </div>
                                         <hr>
                                         <div class="service-description">
-                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor
-                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit temporibus.</p>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Animi dolor
+                                                doloribus eaque et expedita, fugit magnam nulla officiis suscipit
+                                                temporibus.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -488,7 +620,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -511,7 +644,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -534,7 +668,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -561,7 +696,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -584,7 +720,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -607,7 +744,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="work-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -657,7 +795,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="training-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -680,7 +819,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="training-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -707,7 +847,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="training-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -730,7 +871,8 @@
                                             <p class="position">Web Developer</p>
                                         </div>
                                         <div class="training-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat harum
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat
+                                            harum
                                             illum ipsa laborum quam quas saepe sequi ut! Tempore!
                                         </div>
                                         <div class="arrow-box">
@@ -845,7 +987,9 @@
                             <div class="col-md-4 price-item">
                                 <div class="card">
                                     <div class="card-header">
-                                        <p>$50 <small>/mon</small></p>
+                                        <p>$50
+                                            <small>/mon</small>
+                                        </p>
                                     </div>
                                     <div class="card-body">
                                         <p class="card-title">basic</p>
@@ -862,7 +1006,9 @@
                             <div class="col-md-4 price-item price-item-mid">
                                 <div class="card">
                                     <div class="card-header">
-                                        <p>$50 <small>/mon</small></p>
+                                        <p>$50
+                                            <small>/mon</small>
+                                        </p>
                                     </div>
                                     <div class="card-body">
                                         <p class="card-title">basic</p>
@@ -879,7 +1025,9 @@
                             <div class="col-md-4 price-item">
                                 <div class="card">
                                     <div class="card-header">
-                                        <p>$50 <small>/mon</small></p>
+                                        <p>$50
+                                            <small>/mon</small>
+                                        </p>
                                     </div>
                                     <div class="card-body">
                                         <p class="card-title">basic</p>
@@ -1042,7 +1190,6 @@
         </div>
 
 
-
         <!--===============reference Section=============-->
 
         <section id="reference" class="py-5">
@@ -1111,7 +1258,6 @@
         </section>
 
 
-
         <!--===============Instagram Section=============-->
 
         <section id="instagram" class="py-5">
@@ -1152,7 +1298,6 @@
                 </div>
             </div>
         </section>
-
 
 
         <!--===========Interest Section===========-->
@@ -1271,7 +1416,8 @@
                         </div>
                         <div class="collapse" id="collapsable1">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro
+                                ut!
                                 Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
                                 saepe veniam! Consequatur, modi quidem!
                             </div>
@@ -1284,7 +1430,8 @@
                         </div>
                         <div class="collapse" id="collapsable2">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro
+                                ut!
                                 Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
                                 saepe veniam! Consequatur, modi quidem!
                             </div>
@@ -1297,7 +1444,8 @@
                         </div>
                         <div class="collapse" id="collapsable3">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro
+                                ut!
                                 Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
                                 saepe veniam! Consequatur, modi quidem!
                             </div>
@@ -1310,7 +1458,8 @@
                         </div>
                         <div class="collapse" id="collapsable4">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro ut!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam perspiciatis porro
+                                ut!
                                 Ad assumenda debitis earum, eius, harum laborum laudantium nam, praesentium quod ratione
                                 saepe veniam! Consequatur, modi quidem!
                             </div>
@@ -1378,7 +1527,9 @@
                                 <div class="map-location">
                                     <div class="dark-overly">
                                     </div>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.656564242234!2d90.36362721445605!3d23.759623394341933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf579e10e0ef%3A0x6b7325b0f90d6a27!2sMohammadpur%20Town%20Hall%20Market!5e0!3m2!1sen!2sbd!4v1583862715187!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.656564242234!2d90.36362721445605!3d23.759623394341933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf579e10e0ef%3A0x6b7325b0f90d6a27!2sMohammadpur%20Town%20Hall%20Market!5e0!3m2!1sen!2sbd!4v1583862715187!5m2!1sen!2sbd"
+                                            width="600" height="450" frameborder="0" style="border:0;"
+                                            allowfullscreen=""></iframe>
 
                                 </div>
                             </div>
@@ -1407,44 +1558,20 @@
 
             return {
 
-
-                options: {
-                    text: {
-                        color: '#FFFFFF',
-                        shadowEnable: true,
-                        shadowColor: '#000000',
-                        fontSize: 14,
-                        fontFamily: 'Helvetica',
-                        dynamicPosition: false,
-                        hideText: false
-                    },
-                    progress: {
-                        color: '#2dbd2d',
-                        backgroundColor: '#d3d3d3'
-                    },
-                    layout: {
-                        height: 50,
-                        width: 100,
-                        verticalTextAlign: 63,
-                        horizontalTextAlign: 43,
-                        zeroOffset: 0,
-                        strokeWidth: 15,
-                        progressPadding: 0,
-                        type: 'circle'
-                    }
-                },
-
+                portfolioCat: 'webDesign'
             }
 
 
         },
-        mounted(){
+
+        methods: {},
+
+        mounted() {
 
         }
 
 
     }
-
 
 
 </script>

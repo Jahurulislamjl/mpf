@@ -123,6 +123,8 @@ new Vue({
             $(".nav-tabs .nav-link").click(function(){
                 $(this).tab('show');
             });
+
+
         });
     }
 
