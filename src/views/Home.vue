@@ -5,8 +5,6 @@
 
             </div>
         </div>
-
-
         <section class="about" id="about">
             <div class="container">
                 <div class="row">
@@ -15,8 +13,7 @@
                         <div class="profile pt-3 px-4">
                             <div class="row">
 
-                                <div class="col-md-5 profile-picture p-5 wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                <div class="col-md-5 profile-picture p-5">
                                     <img src="../assets/images/jahurul.jpg" alt="" width="100%">
                                 </div>
 
@@ -27,7 +24,7 @@
                                         <span class="hello py-1 px-3">HELLO</span>
                                     </div>
                                     <div class="bio-head py-4">
-                                        <p class="name">I'm <span>Md. Jahurul Islam</span></p>
+                                        <p class="name" >I'm <span>Md. Jahurul Islam</span></p>
                                         <p class="designation">Software Engineer</p>
                                     </div>
 
@@ -46,7 +43,7 @@
                                                 <p>ADDRESS</p>
                                             </div>
                                             <div class="bio-description">
-                                                <p>Hazipur, Chougachha-7410, Jashore</p>
+                                                <p>Townhall, Mohammadpur-1207, Dhaka</p>
                                             </div>
                                         </div>
 
@@ -64,7 +61,7 @@
                                                 <p>PHONE</p>
                                             </div>
                                             <div class="bio-description">
-                                                <p>+880 1880 864 288</p>
+                                                <p>+880 1768 XXX XXX</p>
                                             </div>
                                         </div>
                                     </div>
@@ -146,7 +143,7 @@
 
         <!--=========Skill Section==========-->
 
-        <section class="skills py-5 wow fadeInUp" data-wow-delay="0.6s"
+        <section class="skills py-5 wow fadeIn" data-wow-delay="0.6s"
                  data-wow-duration="2s" id="skill">
             <div class="container">
                 <div class="row">
@@ -289,7 +286,7 @@
 
         <!--=======portfolio section========-->
 
-        <section id="portfolio" class="py-5 wow fadeInUp" data-wow-delay="0.6s"
+        <section id="portfolio" class="py-5 wow fadeIn" data-wow-delay="0.6s"
                  data-wow-duration="2s">
             <div class="container">
                 <div class="row">
@@ -305,7 +302,7 @@
 
                     <div class="row">
                         <div class="tabs">
-                            <div class="tab-link pb-4">
+                            <div class="tab-link">
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item">
                                         <a href="#" class="nav-link" @click.prevent="portfolioCat='webDesign'">web
@@ -322,37 +319,34 @@
                                 </ul>
                             </div>
 
-                            <div class="tab-content">
+                            <div class="tab-content p-4">
 
                                 <div v-if="portfolioCat=='webDesign'" class="web-design-items active">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="card">
-                                                <div class="card-body">
-                                                    <div class="dark-overly">
-
+                                                <div class="dark-overly">
+                                                    <div class="card-body">
+                                                        <img src="../assets/images/hand.jpg" alt="">
                                                     </div>
-                                                    <img src="../assets/images/hand.jpg" alt="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="card">
-                                                <div class="card-body">
-                                                    <div class="dark-overly">
-
+                                                <div class="dark-overly">
+                                                    <div class="card-body">
+                                                        <img src="../assets/images/hand.jpg" alt="">
                                                     </div>
-                                                    <img src="../assets/images/hand.jpg" alt="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="card">
-                                                <div class="card-body">
-                                                    <div class="dark-overly">
-
+                                                <div class="dark-overly">
+                                                    <div class="card-body">
+                                                        <img src="../assets/images/hand.jpg" alt="">
                                                     </div>
-                                                    <img src="../assets/images/hand.jpg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -440,7 +434,7 @@
 
         <!--==============Service Section===========-->
 
-        <section id="service" class="py-5 wow fadeInUp" data-wow-delay="0.6s"
+        <section id="service" class="py-5 wow fadeIn" data-wow-delay="0.6s"
                  data-wow-duration="2s">
             <div class="container">
                 <div class="row">
@@ -610,7 +604,7 @@
 
                             <div class="col-md-6 experience-left">
                                 <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -634,7 +628,7 @@
                                 </div>
 
                                 <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -658,7 +652,7 @@
                                 </div>
 
                                 <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -686,7 +680,7 @@
 
                             <div class="col-md-6 experience-right">
                                 <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body ">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -710,7 +704,7 @@
                                 </div>
 
                                 <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -734,7 +728,7 @@
                                 </div>
 
                                 <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -785,7 +779,7 @@
 
                             <div class="col-md-6 training-left">
                                 <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -809,7 +803,7 @@
                                 </div>
 
                                 <div class="card left-card wow fadeInLeft" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -836,7 +830,7 @@
 
 
                             <div class="col-md-6 training-right wow fadeInRight" data-wow-delay="0.6s"
-                                 data-wow-duration="2s">
+                                 data-wow-duration="1s">
                                 <div class="card right-card">
                                     <div class="card-body ">
                                         <div class="year">
@@ -861,7 +855,7 @@
                                 </div>
 
                                 <div class="card right-card wow fadeInRight" data-wow-delay="0.6s"
-                                     data-wow-duration="2s">
+                                     data-wow-duration="1s">
                                     <div class="card-body ">
                                         <div class="year">
                                             <p>2019-2020</p>
@@ -910,7 +904,7 @@
                     <div class="col-12 university-section pt-3">
                         <div class="university">
                             <div class="card wow fadeInRight" data-wow-delay="0.6s"
-                                 data-wow-duration="2s">
+                                 data-wow-duration="1s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>
@@ -929,7 +923,7 @@
                     <div class="col-12 college-section">
                         <div class="college">
                             <div class="card wow fadeInRight" data-wow-delay="0.6s"
-                                 data-wow-duration="2s">
+                                 data-wow-duration="1s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>
@@ -948,7 +942,7 @@
                     <div class="col-12 school-section">
                         <div class="school">
                             <div class="card wow fadeInRight" data-wow-delay="0.6s"
-                                 data-wow-duration="2s">
+                                 data-wow-duration="1s">
                                 <div class="card-body">
                                     <div class="year">
                                         <p>2015-2019</p>

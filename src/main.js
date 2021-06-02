@@ -41,19 +41,19 @@ new Vue({
             $(window).scroll(function(){
                 let scroll = $(window).scrollTop();
                 if (scroll > 150) {
-                    $(".header").css({
-                        'background': '#fff',
+                    $(".navbar").css({
+                        'background': '#E8676B',
                         'z-index': '10',
                         'box-shadow': '0 10px 30px rgba(0, 0, 0, 0.19)',
                         'transition': 'all 0.7s'
                     });
                     $(".nav-link").css({
-                        'color':'black'
+                        'color':'#fff'
                     });
                 }
 
                 else{
-                    $(".header").css({
+                    $(".navbar").css({
                         'background': 'none',
                         'box-shadow': 'none'
                     });
